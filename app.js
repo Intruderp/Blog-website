@@ -25,8 +25,8 @@ app.get("/", function (req, res) {
   res.render("home");     //initially posts=empty
 });
 
-app.get("/homePage",function(req,res){
-  res.render("homePage",{ homeContent: homeStartingContent, posts: posts });
+app.get("/homepage",function(req,res){
+  res.render("homepage",{ homeContent: homeStartingContent, posts: posts });
 });
 
 app.get("/contact", function (req, res) {
