@@ -12,11 +12,11 @@
         <p>
             <% var content;%>
             <%if(post.content.length>500){%>
-            <%content=post.content.substring(0,500)+"..."; %>
+            <%content=post.content.substring(0,650)+"..."; %>
             <%}else {%>
             <%content=post.content;}%>
             <%=content%>
-            <%if(post.content.length>1000){%>
+            <%if(post.content.length>650){%>
             <a href="/posts/+<%=post.title%>">Read More</a>
             <%}%>
         </p>

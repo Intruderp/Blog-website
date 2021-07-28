@@ -15,6 +15,12 @@ var firstPost={
   content:"Hello there, I have made this blogging website using HTML, CSS, Bootstrap, Javascript, Node.js and Express. I have also used EJS for templating and layouts."
 };
 posts.push(firstPost);
+var secondPost={
+  title:"Day 2",
+  // content:"Hello there, I have made this blogging website using HTML, CSS, Bootstrap, Javascript, Node.js and Express. I have also used EJS for templating and layouts."
+  content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Tellus at urna condimentum mattis pellentesque. Et malesuada fames ac turpis. Id faucibus nisl tincidunt eget nullam non. Adipiscing diam donec adipiscing tristique risus. Nulla pellentesque dignissim enim sit amet venenatis urna. Tincidunt ornare massa eget egestas purus viverra accumsan in. Odio morbi quis commodo odio aenean sed adipiscing diam donec. Sed faucibus turpis in eu mi. Ut tellus elementum sagittis vitae et leo duis ut diam. Hendrerit dolor magna eget est. Sapien faucibus et molestie ac feugiat sed lectus vestibulum. Sit amet consectetur adipiscing elit ut. Euismod quis viverra nibh cras pulvinar mattis. Sodales ut etiam sit amet nisl. Velit scelerisque in dictum non consectetur a. Tempor orci eu lobortis elementum. Vestibulum rhoncus est pellentesque elit. Dui id ornare arcu odio ut sem nulla. Sed felis eget velit aliquet sagittis id consectetur. Dignissim cras tincidunt lobortis feugiat vivamus at augue eget arcu. Odio ut sem nulla pharetra diam sit amet nisl. Ultrices vitae auctor eu augue ut lectus. Fermentum posuere urna nec tincidunt praesent semper feugiat nibh sed. Malesuada fames ac turpis egestas. Commodo nulla facilisi nullam vehicula ipsum a arcu cursus. Neque laoreet suspendisse interdum consectetur libero id faucibus nisl. Commodo nulla facilisi nullam vehicula ipsum a. Tortor condimentum lacinia quis vel eros donec. Elit at imperdiet dui accumsan. Ultrices gravida dictum fusce ut placerat. Ac odio tempor orci dapibus ultrices. Blandit turpis cursus in hac habitasse platea dictumst. Sed vulputate odio ut enim. Non curabitur gravida arcu ac tortor. Sed risus ultricies tristique nulla. Pellentesque adipiscing commodo elit at."
+};
+posts.push(secondPost);
 app.set('view engine', 'ejs');
 
 app.use(bodyParser.urlencoded({ extended: true }));
