@@ -7,7 +7,7 @@
     </p>
     <%posts.forEach(function(post){%>
         <h1>
-            <i class="fas fa-angle-right"></i>  <a href="/posts/+<%=post.title%>"  class="blog-title"><%=post.title%> </a>
+            <i class="fas fa-angle-right"></i>  <a href="/posts/<%=post.id%>"  class="blog-title"><%=post.title%> </a>
         </h1>
         <p>
             <% var content;%>
@@ -17,7 +17,7 @@
             <%content=post.content;}%>
             <%=content%>
             <%if(post.content.length>650){%>
-            <a href="/posts/+<%=post.title%>">Read More</a>
+            <a href="/posts/<%=post.id%>">Read More</a>
             <%}%>
         </p>
      <%});%>
